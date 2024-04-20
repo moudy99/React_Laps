@@ -1,0 +1,45 @@
+/* AboutMe.css */
+.about-me {
+     font-size: 2rem;
+     color: #4d47db;
+     font-weight: bold;
+     font-family: sans-serif;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     align-self: baseline;
+   }
+   
+   .about-me-container {
+     padding: 20px;
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+   }
+   
+   .text-content {
+     width: 70%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 30px;
+   }
+   
+   .about-me-container .text-content p {
+     width: 800px;
+     text-align: justify;
+     font-size: 22px;
+     font-weight: 600;
+   }
+   .about-me-container .text-content button {
+     font-weight: 500; 
+     color: #4d47db;
+     border-color: #4d47db; 
+     transition: all .3s ease-in-out;
+   }
+   .about-me-container .text-content button:hover{
+     color: white !important;
+     background-color: #4d47db !important;
+   }

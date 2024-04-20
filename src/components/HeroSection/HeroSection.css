@@ -1,0 +1,36 @@
+
+.hero-section-container{
+     
+     width: 100%;
+     background-color: #f7f7f7;
+}
+.here-section-content {
+     padding: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: row;
+     flex-wrap: wrap;
+   }
+  .here-section-content .text-content span{
+    color: #4d47db;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+  }
+   .hero-section-container .section-img {
+     width: 30rem;
+
+   }
+   .hero-section-container .section-img img {
+     width: 30rem;
+
+   }
+   .hero-section-container .text-content{
+     width: 50rem;
+     padding: 3rem; text-align: center;
+     
+   }
